@@ -3,5 +3,5 @@ export default function createIteratorObject(report) {
   Object.values(report.allEmployees).forEach((item) => {
     items = [...items, ...item];
   });
-  return items[Symbol.iterator]();
+  return items;
 }
