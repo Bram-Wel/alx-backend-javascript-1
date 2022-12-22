@@ -22,6 +22,7 @@ export default class HolbertonClass {
     this._location = location;
   }
 
+  /* eslint-disable */
   [Symbol.toPrimitive](type) {
     if (type === 'number') return this._size;
     if (type === 'string') return this._location;
