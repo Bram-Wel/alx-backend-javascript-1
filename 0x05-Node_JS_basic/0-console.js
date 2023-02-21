@@ -3,7 +3,7 @@
  * @param {String} msg The message to display.
  */
 
-function displayMessage (message) {
+const displayMessage = (message) => {
   console.log(message);
 }
 
